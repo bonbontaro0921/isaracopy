@@ -1,0 +1,833 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.txtl{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.txtm{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.txts{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.txtxs{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.yellowtxt{
+    color: burlywood;
+}
+
+.whitetxt{
+    color: white;
+}
+
+.container{
+    max-width:1170px;
+    width: 100%;
+    margin:0 auto;
+
+}
+
+.headline{
+    position:relative;
+    height:auto;
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline::before{
+    
+    content: '';
+    position:absolute;
+    top: 0;
+    left:0;
+    width:50px;
+    height:50px;
+    border-top:5px solid burlywood;
+    border-left:5px solid burlywood;    
+
+}
+
+.headline::after{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    right:0;
+    width:50px;
+    height:50px;
+    border-bottom:5px solid burlywood;
+    border-right:5px solid burlywood;  
+
+}
+
+.headlinewhite{
+    position:relative;
+    height:auto;
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headlinewhite::before{
+    
+    content: '';
+    position:absolute;
+    top: 0;
+    left:0;
+    width:50px;
+    height:50px;
+    border-top:5px solid white;
+    border-left:5px solid white;    
+
+}
+
+.headlinewhite::after{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    right:0;
+    width:50px;
+    height:50px;
+    border-bottom:5px solid white;
+    border-right:5px solid white;  
+
+}
+
+.header{
+    height:75px;
+    padding:10px 0;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+    width:100%;
+    background-color: white;
+}
+
+.header-left{
+    float: left;
+    display: flex;
+}
+
+
+.header-left img{
+    height:40px;
+    width:124px;
+
+}
+
+.header-right-pc{
+    display: block;
+    float:right;
+    background-color: lightcoral;
+    color: white;
+    padding:10px 20px;
+    border-radius: 25px;
+    opacity:0.8;
+    text-align: center;
+
+}
+
+.header-right-sp{
+    display:none;
+}
+
+
+
+.header-right:hover{
+    opacity:1;
+
+}
+
+.a-wrapper{
+    background-image: url(Isara_img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    padding:150px 0;
+}
+
+.a-wrapper img{
+    width:350px;
+    height:135px;
+
+}
+
+.b-wrapper {
+    background-color: burlywood;
+    text-align: center;
+    padding:20px 0;
+    color:white;
+}
+
+
+
+
+.spotlight p{
+    display: inline;
+    padding:0 4px;
+    border-radius: 5px;
+    background-color: white;
+    color:red;
+
+}
+
+.recruit {
+    color:white;
+    padding:30px 120px;
+    display: block;
+    background-color: lightcoral;
+    border-radius: 100px;
+    margin:45px auto;
+    color: white;
+    max-width: 1028px;
+}
+
+.btn {
+    padding:5px 10px;
+    display: inline-block;
+    font-size:5px;
+    border-radius: 5px;
+    margin:0 5px;
+    color:white;
+}
+
+.twitter{
+    background-color: cyan;
+
+}
+
+.good{
+    background-color: dodgerblue;
+
+}
+
+.share{
+    background-color: dodgerblue;    
+
+}
+
+.fa{
+    margin-right:5px;
+    color:white;
+}
+
+.c-wrapper{
+    background-image: url(Isara_img/introbottom.jpg);
+    background-size: cover;
+    text-align: center;
+    padding:40px 0 40px 0;
+  
+
+}
+
+.message{
+    padding :30px 0 120px 0;
+}
+
+.message span{
+    background:linear-gradient(transparent 70%, #FFFF00 0%);
+
+}
+
+.d-wrapper{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding:0px 0 50px 0;
+    
+}
+
+.aboutcircle p{
+    position:relative;
+    top:-40px;
+    width: 80px;
+    height:80px;
+    background-color: coral;
+    border-radius: 40px;
+    line-height:80px;
+    margin:0 auto;
+}
+
+.bottom-content{
+    background-color: white;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    margin:0 10px;
+
+}
+
+.skills{
+    width:60%;
+    margin:0 auto;
+    padding:20px 0 40px 0;
+    display: flex;
+}
+
+.skill{
+    flex:auto;
+
+}
+
+.e-wrapper{
+    background-image: url(Isara_img/aboutsecondbg.jpg);
+    background-size: cover;
+    padding:50px 0 30px 0;
+    text-align: center;
+}
+
+.e-wrapper span{
+    color:burlywood;
+}
+
+.e-wrapper h2,.e-wrapper p{
+    color:white;
+}
+
+.steps{
+    display: flex;
+
+}
+
+.step{
+    flex:auto;
+    background-color: white;
+    border-radius: 5px;
+    margin:0 10px;
+    padding:20px 0;
+    width:100%;
+}
+
+.step-title{
+    background-color: burlywood;
+    border-radius: 5px;
+    width:80%;
+    margin:0 auto;
+    color:white;
+}
+
+.step-content p{
+    color:black;
+}
+
+.f-wrapper{
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+.f-wrapper p{
+    color:white;
+}
+
+.g-wrapper{
+    text-align: center;
+    padding:30px 0;
+}
+
+.abilities{
+    display:flex;
+    flex-wrap: wrap;
+    width:75%;
+    margin:0 auto;
+}
+
+.ability{
+    flex: auto;
+}
+
+.ability img{
+    height:180px;
+    width:180px;
+}
+
+.h-wrapper{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding:30px 0;
+}
+
+.merits{
+    display: flex;
+    text-align: start;
+    padding:30px 0;
+}
+
+.merit{
+    flex:auto;
+    width:100%;
+    margin: 0px 10px;
+}
+
+.merit img{
+    width:100%;
+    height:180px;
+    object-fit: cover;
+}
+
+.merit-title{
+    margin:5px 0;
+}
+
+.merit-content{
+    margin:5px 0;
+}
+
+.h-wrapper-bottom{
+    background-color: white;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    padding:30px;
+    margin:0 10px;
+}
+
+.i-wrapper{
+    background-image: url(Isara_img/teacherbg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding:30px 0;
+    color: white;
+    background-position: center;
+}
+
+.members{
+    display: flex;
+    align-items: stretch;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin:0 10px;
+    width:100%;
+}
+
+.member-content{
+    border: 3px solid white;
+    padding:30px 0;
+    flex-grow: 1;
+
+}
+
+.member img{
+    border-radius: 99px;
+    position: relative;
+    top: 40px;
+}
+
+.member-content-left{
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+}
+
+.j-wrapper{
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px 0;
+}
+
+.j-wrapper p{
+    color: burlywood;
+    background-color: white;
+    height: 80px;
+    width:80px;
+    border-radius: 40px;
+    margin:0 auto;
+    line-height: 80px;
+}
+
+.j-wrapper .txtl{
+    color: white;
+}
+
+.k-wrapper{
+    text-align: center;
+
+}
+
+.triangle{
+    margin:0 auto;
+    width:0;
+    height:0;
+    border-top: 50px solid burlywood;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+.companies{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.company{
+    display: flex;
+    width:75%;
+    margin:20px auto;
+}
+
+.company-image img{
+    height:auto;
+    width:100%;
+    border:3px solid burlywood;
+}
+
+.company-image{
+    width: 30%;
+}
+
+.company-content{
+    text-align:left;
+    padding:0 5px;
+    color:darkgray;
+    font-style:italic;
+    width: 70%;
+}
+
+.company-content span{
+    text-decoration: underline;
+
+}
+
+.l-wrapper{
+    text-align: center;
+    background-image: url(Isara_img/classbg.jpg);
+    background-size: cover;
+    padding:30px 0;
+    color: white;
+}
+
+.lesson-lists{
+    display: flex;
+    align-items: flex-start;
+    width:60%;
+    margin:0 auto;
+    
+}
+
+.lesson-list{
+    flex:auto;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    width:100%;
+    margin:0 10px;
+    height:auto;
+}
+
+.lesson-list p{
+    background-color: dodgerblue;
+    margin:0;
+    padding:16px;
+}
+
+.lesson-list ul{
+    margin:0 auto;
+    padding:0;
+    background-color: white;
+}
+
+.lesson-list li{
+    list-style: none;
+    margin:0 auto;
+    padding: 10px 0;
+    width:fit-content;
+    border-bottom: 1px dotted darkgray;
+    width:100%;
+    color:black;
+}
+
+.m-wrapper{
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+.m-wrapper p{
+    color:white;
+}
+
+.n-wrapper{
+    text-align: center;
+    padding:20px 0;
+
+}
+
+.fa-laptop{
+    color: black;
+}
+
+.n-wrapper-sp{
+    display: none;
+
+}
+
+.flow{
+    width: 80vw;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+.flow-content{
+    display: flex;
+    background-color: blanchedalmond;
+    padding:10px 35px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.flow-left{
+    padding:0 20px;
+    margin:auto 0;
+    width: 30%;
+}
+
+.flow-left .txtm{
+    font-size: 18px;
+}
+
+.flow-right{
+    text-align: left;
+    width: 70%;
+}
+
+.flow-line{
+    width: 80vw;
+    max-width: 1000px;
+}
+
+.o-wrapper{
+    background-image: url(Isara_img/bangkokbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:70px 0;
+}
+.reason{
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+    color:white;
+}
+
+.p-wrapper{
+    text-align: center;
+    background-color: burlywood;
+    padding:70px 0;
+}
+
+.fa-gift{
+    color: black;
+}
+
+.privileges-title{
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    background-color: burlywood;
+}
+
+.br1{
+    display: none;
+}
+
+.privileges-sp{
+    display: none;
+}
+
+.privileges-pc{
+    display: flex;
+    padding:40px;
+    margin:0 20px;
+    border:1px solid white;
+}
+
+.privilege{
+    display: inline-grid;
+    align-content: center;
+    width:60%;
+    margin:0 auto;
+    background-color: white;
+    height: 250px;
+    width:250px;
+    border-radius: 125px;
+
+}
+.privilege-box{
+    margin: auto;
+    width: 80%;
+}
+
+.q-wrapper{
+    text-align:center;
+    background-image: url(Isara_img/specialdetail.jpg);
+    background-size: cover;
+    padding:30px 0;
+    color: white;
+}
+
+.r-wrapper{
+    text-align:center;
+    padding:30px 0;
+}
+
+.founder-message{
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+}
+
+.founder-message-image{
+    padding:0 10px;
+}
+
+.founder-message-image img{
+    width:190px;
+    height:140px;
+}
+
+.founder-message-content{
+    color: darkgray;
+    padding:0 10px;
+    text-align:left;
+
+}
+
+.s-wrapper{
+    text-align: center;
+    background-color: burlywood;
+    padding:30px 0;
+}
+
+.t-wrapper{
+    text-align: center;
+}
+
+.fa-envelope{
+    color: black;
+
+}
+
+#faq-list{
+    padding: 0;
+}
+
+.faq-list-item {
+    margin:10px;
+    position:relative;
+    cursor:pointer;
+    text-align: left;
+    list-style: none;
+  }
+
+  .question{
+    position: relative;
+    display: block;
+    padding:20px 20px 20px 20px;
+    border:1px solid #ccc;
+  }
+
+  .fa-question{
+    color: #016ea9;
+  }
+
+  .question.down:before{
+    content: "";
+    width: 6px;
+    height:6px;
+    border-bottom: 2px solid #e5e5e5;
+    border-right: 2px solid #e5e5e5;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+
+  .question.up:before{
+    content: "";
+    width: 6px;
+    height:6px;
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 15px;
+  }
+  
+  .answer {
+    display: none;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #page-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  #page-top::before{
+    content: "";
+    width: 10px;
+    height:10px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 20px;
+    right: 18px;
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px 0;
+  }
+
+  .footer-top{
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+  }
+
+  .footer-middle{
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: block;
+  }
+
+  .footer-bottom{
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+  }
